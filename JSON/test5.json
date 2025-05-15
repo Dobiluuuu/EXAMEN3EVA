@@ -1,0 +1,24 @@
+{
+    "inventario": {
+        "productos": {
+            "producto": [
+                {
+                    "nombre": "Tele",
+                    "precio":"20.00",
+                    "fecha_ingreso":"20/10/2010",
+                    "stock":"true",
+                    "_codigo":"001",
+                    "_categoria": "electronica"
+                },
+                {
+                    "nombre": "Ventilador",
+                    "precio":"200.00",
+                    "fecha_ingreso":"20/10/2010",
+                    "stock":"true",
+                    "_codigo":"002",
+                    "_categoria": "electronica"
+                }
+            ]
+        }
+    }
+}

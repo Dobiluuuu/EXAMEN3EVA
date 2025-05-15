@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let num1, num2, num3;
+        num1 = parseInt(prompt('Ingrese primer valor'));
+        num2 = parseInt(prompt('Ingrese segundo valor'));
+        num3 = parseInt(prompt('Ingrese tercer valor'));
+        if (num1 > 10 || num2 > 10 || num3 > 10){
+            document.write('Alguno de los números es mayor que 10');
+        }
+    </script>
+    <script>
+        let valor;
+        valor = parseInt(prompt('Ingrese un valor comprendido entre 1 y 4'));
+        switch (valor){
+            case 1 : 
+                document.write('uno');
+                break;
+            case 2 : 
+                document.write('dos');
+                break;
+            case 3 : 
+                document.write('tres');
+                break;
+            case 4 : 
+                document.write('cuatro');
+                break;
+            default: 
+                document.write('El valor  tiene que ser entre 1 y 4');
+                break;
+        }
+    </script>
+</body>
+</html>

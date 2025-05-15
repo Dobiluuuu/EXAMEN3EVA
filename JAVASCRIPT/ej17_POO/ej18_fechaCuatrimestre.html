@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function obtenerCuatrimestre(){
+            let mes = new Date().getMonth + 1;
+            if(mes <= 4){
+                return 'Primer cuatrimestre';
+            }
+            if(mest <= 8){
+                return 'Segundo cuatrimestre';
+            }
+            return 'Tercer cuatrimestre';
+        }
+        alert(obtenerCuatrimestre());
+    </script>
+
+</body>
+</html>

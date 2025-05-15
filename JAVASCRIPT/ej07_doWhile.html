@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        let num;
+
+        do{
+            num = parseInt(prompt('Dime un número entre 0 y 999: '));
+            document.write('El valor ' + num + ' tiene ');
+            if (num < 10){
+                document.write(' 1 dígito');
+            }
+            else{
+                if(num < 100){
+                    document.write(' 2 dígitos');
+                }else{
+                    document.write(' 3 dígitos');
+                }
+            }
+            document.write('<br>')
+        }
+        while(valor != 0)
+    </script>
+</body>
+</html>

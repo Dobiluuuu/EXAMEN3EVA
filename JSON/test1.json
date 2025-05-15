@@ -1,0 +1,14 @@
+{
+    "titulo": "El Principito",
+    "autor":"Antonio",
+    "publicacion": "1943",
+    "valoraciones": [4.8, 4.9, 5.0],
+    "resena": {
+        "resumen": "La historia de un pequeño principe",
+        "opiniones":[
+            {"usuario":"Lector123", "opinion": "Una historia encantadora"},
+            {"usuario": "Lector456", "opinion":"Un relatro profundo"}
+        ]
+    },
+    "premios":null
+}

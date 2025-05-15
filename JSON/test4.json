@@ -1,0 +1,9 @@
+{
+    "productos": {
+        "producto":[
+        {"nombre": "Camiseta","precio":"19.99","disponible":"true","detalles":{"color":"rojo","talla":"M"}},
+        {"nombre": "Pantalon","precio":"20.00","disponible":"false","detalles":{"color":"marron","talla":"L"}},
+        {"nombre": "Gorra","precio":"15.00","disponible":"true","detalles":{"color":"amarillo","talla":"S"}}
+        ]
+    }
+}
